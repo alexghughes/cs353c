@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/modals/src/js/profile.js" line="54" mnemonic="2" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b200d22-16a9-46ff-b023-438300142786" name="Default" comment="" />
+    <ignored path="modals.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="modals" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="account.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modals/src/js/account.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modals/src/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myaccount.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modals/src/myaccount.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-415">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friendsProfile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modals/src/friendsProfile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modals/src/js/controllers/authenticationController.js" />
+        <option value="$PROJECT_DIR$/modals/src/js/app - Copy.js" />
+        <option value="$PROJECT_DIR$/modals/src/js/storage/app.js" />
+        <option value="$PROJECT_DIR$/modals/src/js/data.js" />
+        <option value="$PROJECT_DIR$/modals/Software Project/modal.js" />
+        <option value="$PROJECT_DIR$/modals/src/css/animate.css" />
+        <option value="$PROJECT_DIR$/modals/bower_components/bootstrap/dist/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/modals/src/js/forgotpassword.js" />
+        <option value="$PROJECT_DIR$/modals/src/forgotpassword.html" />
+        <option value="$PROJECT_DIR$/modals/src/js/app.js" />
+        <option value="$PROJECT_DIR$/modals/src/messages.html" />
+        <option value="$PROJECT_DIR$/modals/src/friends.html" />
+        <option value="$PROJECT_DIR$/modals/src/js/profile.js" />
+        <option value="$PROJECT_DIR$/modals/src/groups.html" />
+        <option value="$PROJECT_DIR$/modals/src/js/groups.js" />
+        <option value="$PROJECT_DIR$/modals/src/index.html" />
+        <option value="$PROJECT_DIR$/modals/src/js/account.js" />
+        <option value="$PROJECT_DIR$/modals/src/css/styles.css" />
+        <option value="$PROJECT_DIR$/modals/src/avatar.html" />
+        <option value="$PROJECT_DIR$/modals/src/myaccount.html" />
+        <option value="$PROJECT_DIR$/modals/src/friendsProfile.html" />
+        <option value="$PROJECT_DIR$/modals/src/profile.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code Buddy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CS230_Assignment" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Conor\Desktop\modals\modals\src\js" />
+      <recent name="C:\Users\Conor\Desktop\modals\modals\src\js\storage" />
+      <recent name="C:\Users\Conor\Desktop\modals\modals\src\js\controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b200d22-16a9-46ff-b023-438300142786" name="Default" comment="" />
+      <created>1459105503232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1459105503232</updated>
+      <workItem from="1459105505520" duration="18000" />
+      <workItem from="1459105524369" duration="5118000" />
+      <workItem from="1459240486487" duration="2911000" />
+      <workItem from="1459256577163" duration="2441000" />
+      <workItem from="1459352210655" duration="168000" />
+      <workItem from="1459594003665" duration="3985000" />
+      <workItem from="1459610466359" duration="6729000" />
+      <workItem from="1459624066419" duration="666000" />
+      <workItem from="1459762198833" duration="4991000" />
+      <workItem from="1459769352563" duration="5137000" />
+      <workItem from="1459778825478" duration="2734000" />
+      <workItem from="1459793689426" duration="3257000" />
+      <workItem from="1459802166623" duration="2437000" />
+      <workItem from="1459853682442" duration="15551000" />
+      <workItem from="1459883762804" duration="242000" />
+      <workItem from="1460041618745" duration="245000" />
+      <workItem from="1460645404618" duration="16339000" />
+      <workItem from="1460968401203" duration="1603000" />
+      <workItem from="1460970231309" duration="9266000" />
+      <workItem from="1460989891837" duration="2649000" />
+      <workItem from="1461014446380" duration="193000" />
+      <workItem from="1461077641893" duration="10873000" />
+      <workItem from="1461154132421" duration="592000" />
+      <workItem from="1461251547641" duration="412000" />
+      <workItem from="1461270590842" duration="4833000" />
+      <workItem from="1461581351397" duration="2438000" />
+      <workItem from="1461596082970" duration="3871000" />
+      <workItem from="1461665863156" duration="12174000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="121873000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modals/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/controllers/authenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/controllers/authenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/controllers/authenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="101" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower_components/jquery/dist/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower_components/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6798">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/profile.js" />
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/myModalContent.html" />
+    <entry file="file://$PROJECT_DIR$/modals/src/js/storage/app - Copy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/storage/app2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/images/en.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/index.html" />
+    <entry file="file://$PROJECT_DIR$/modals/src/js/controllers/authenticationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/modal.js" />
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/angtestsignin.html" />
+    <entry file="file://$PROJECT_DIR$/modals/bower_components/angular-bootstrap/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="3811" column="7" selection-start-line="3811" selection-start-column="7" selection-end-line="3811" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower_components/angular-bootstrap/ui-bootstrap-tpls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="4153" column="16" selection-start-line="4153" selection-start-column="16" selection-end-line="4153" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/Software Project/app.js" />
+    <entry file="file://$PROJECT_DIR$/modals/src/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73480">
+          <caret line="3340" column="0" selection-start-line="3340" selection-start-column="0" selection-end-line="3340" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/forgotpassword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/jquery-ui-1.11.4.custom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/bower_components/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2471">
+          <caret line="4490" column="3" selection-start-line="4490" selection-start-column="3" selection-end-line="4490" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/forgotpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/avatar.js" />
+    <entry file="file://$PROJECT_DIR$/modals/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="77" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/groups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="e#2675#3699#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/friendsProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/myaccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/groups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/src/js/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

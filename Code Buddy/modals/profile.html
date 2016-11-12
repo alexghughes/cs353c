@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Code Buddy - Home</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="HTML,CSS,JavaScript,AngularJS">
+        <meta name="author" content="Group 1 - CS365">
+
+        <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+        <link  rel="stylesheet" href="./css/styles.css">
+
+        <script src="./bower_components/firebase/firebase.js"></script>
+        <script src="./bower_components/angular/angular.js"></script>
+        <script src="./bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="./bower_components/angularfire/dist/angularfire.js"></script>
+        <script src="./bower_components/jquery/dist/jquery.js"></script>
+
+        <script src="./js/profile.js"></script>
+
+
+    </head>
+
+    <body ng-app="profile" ng-controller="profile">
+
+        <div>
+        <nav class="navbar navbar-default">
+
+          <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand">
+                    <img alt="Software Project" src="./images/en.png" width="100%" height="100%">
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a>Home</a></li>
+                      <li><a href="./messages.html">Messages</a></li>
+                      <li><a href="./groups.html">Groups</a></li>
+                      <li><a href="./friends.html">Friends</a></li>
+                  </ul>
+                  <form class="navbar-form navbar-right">
+                      <button type="submit" class="btn btn-success" ng-click="signOut()">Log Out</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="./myaccount.html"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                  </ul>
+                </div>
+          </div>
+        </nav>
+        </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3 well">
+          <div class="well">
+            <p ng-model="myProfile">{{myProfile}} !</p>
+            <img src="{{thismightwork}}" class="img-circle" height="65" width="65" alt="Avatar">
+              <p></p><a href="./avatar.html" class="btn btn-primary btn-xs">
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+          </a>
+          </div>
+          <div class="well">
+                <p><a href="groups.html">Groups</a></p>
+
+               <a href = "groupsmessageboards.html?id={{domainone}}" class="label label-default" >{{domainone}}</a>
+               <a href = "groupsmessageboards.html?id={{domaintwo}}" class="label label-primary" >{{domaintwo}}</a>
+               <a href = "groupsmessageboards.html?id={{domainthree}}" class="label label-success" >{{domainthree}}</a>
+               <a href = "groupsmessageboards.html?id={{domainfour}}"  class="label label-info" >{{domainfour}}</a>
+               <a href = "groupsmessageboards.html?id={{domainfive}}"  class="label label-warning" >{{domainfive}}</a>
+               <a href = "groupsmessageboards.html?id={{domainsix}}"  class="label label-default" >{{domainsix}}</a>
+       
+          </div>
+
+        <!--  <div class="alert alert-success fade in">
+            <a href="./profile.html" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <p><strong>Notification!</strong></p>
+            You Have A Friend Request - Click Here.
+          </div> -->
+
+            <p><strong>User Information:</strong></p>
+            <img src="{{languageFlag}}" class="img-rounded" height="65" width="65" alt="Flag">
+            <p><a href="#">{{myLanguage}} </a></p>
+            <p>{{myLocation}}</p>
+            <p>{{myOccupation}}</p>
+        </div>
+
+
+
+        <div class="col-sm-7" >
+         <div class="row">
+            <div class="col-sm-12">
+              <div class="panel panel-default text-left">
+                <div class="panel-body">
+                  <input type="text" ng-model="status"  class="form-control"  placeholder="What's on your mind" id="status-bar">
+                    <p>.</p>
+                  <button type="button" class="btn btn-default btn-sm" ng-click="postStatus()">
+                    <span class="glyphicon glyphicon-ok" ></span> Post
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" ng-hide="hideMe1">
+            <div class="col-sm-3">
+              <div class="well">
+               <p><a href="./friends/fritz.html">{{fUser2}}</a></p>
+               <img src="{{fAvatar2}}" class="img-circle" height="55" width="55" alt="Avatar">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div class="well">
+                <p>{{status2}}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" ng-hide="hideMe2">
+            <div class="col-sm-3">
+              <div class="well">
+               <p><a href="./friends/franc.html">{{fUser3}}</a></p>
+               <img src="{{fAvatar3}}" class="img-circle" height="55" width="55" alt="Avatar">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div class="well">
+                <p>{{status3}}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row"  ng-hide="hideMe3">
+            <div class="col-sm-3">
+              <div class="well">
+               <p><a href="./friends/jean.html">{{fUser1}}</a></p>
+               <img src="{{fAvatar1}}" class="img-circle" height="55" width="55" alt="Avatar">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div class="well">
+                <p>{{status1}}</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-sm-2 well">
+          <div class="thumbnail">
+            <strong>Friends:</strong>
+              <a href={{friend1}}"><p>{{fUser1}}</p>
+              <img src="{{fAvatar1}}" class="img-circle" height="55" width="55" alt="Avatar"></a>
+              <a href="{{f1User1}}"><p>{{fUser2}}</p>
+              <img src="{{fAvatar2}}" class="img-circle" height="55" width="55" alt="Avatar"></a>
+              <a href="{{friend1}}"><p>{{fUser3}}</p>
+              <img src="{{fAvatar3}}" class="img-circle" height="55" width="55" alt="Avatar"></a>
+            <!--<button class="btn btn-success">View All Friends</button>-->
+              <a href="./friends.html" class="btn btn-success">View All Friends</a>
+          </div>
+          <div class="well">
+            <p>Buy Cans Of Air</p>
+          </div>
+          <div class="well">
+            <p>ADS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <ul>
+            <li ng-repeat="friend in friends"></li>
+        </ul>
+
+
+
+
+    <script src="js/profile.js"></script>
+  <!-- <footer class="container-fluid text-center">
+        <p>Code Buddy 2016</p>
+    </footer> -->
+
+
+</body>
+</html>

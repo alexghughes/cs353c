@@ -1,0 +1,71 @@
+body{
+
+    /*background: url(../images/Grass-Wallpapers.jpg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+
+    background-color: cornflowerblue;
+    color: black;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+
+#userPrompt {
+
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1em;
+
+
+}
+
+.center{
+
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1em;
+
+}
+
+#forgotPassword{
+
+    width: 600px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1em;
+
+}
+
+.account{
+
+    width: 80%;
+    margin: 5em auto;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1em;
+    padding: 10px;
+}
+
+.divida{
+
+    color: #e5e5e5;
+}
+
+

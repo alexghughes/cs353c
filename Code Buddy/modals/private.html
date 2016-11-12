@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Message Groups</title>
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="HTML,CSS,JavaScript,AngularJS">
+    <meta name="author" content="Group 1 - CS365">
+
+    <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link  rel="stylesheet" href="./css/styles.css">
+
+    <script src="./bower_components/firebase/firebase.js"></script>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="./bower_components/angularfire/dist/angularfire.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+
+
+
+    <script>document.write('<base href="' + document.location + '" />');</script>
+
+  </head>
+
+
+
+  <body ng-app="sampleApp">
+      
+      
+      <div ng-controller="SampleCtrl">
+      <div>
+        <nav class="navbar navbar-default">
+
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img alt="Software Project" src="./images/en.png" width="100%" height="100%">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="profile.html">Home</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li  class="active"><a href="./groups.html">Groups</a></li>
+                <li><a href="./friends.html">Friends</a></li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <button type="submit" class="btn btn-success" ng-click="signOut()">Log Out</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="myaccount.html"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <br />
+
+      <div class="center">
+
+     
+
+        <div class="centerForm">
+
+          <li  ng-repeat="messages in privatemessages1"> 
+        <a href="profile2.html?id={{message.userid}}" class="list-group-item-heading" >{{messages.username}}</a>
+        <a href="#" class="list-group-item">{{messages.text}}</a>
+        
+   
+   
+
+
+        <!-- edit a message -->
+       <!-- <input ng-model="message.text" ng-change="messages.$save(message)" /> -->
+       <h3 ng-model="message.text"></h3>
+        <!-- delete a message -->
+       <!-- <button ng-click="messages.$remove(message)">Delete Message</button> -->
+      </ul>
+   </div>
+  </div>
+    <div class="container-fluid center">
+    <!-- push a new message onto the array -->
+    <form ng-submit="addMessage1(); addMessage2(); addName()">
+      <input ng-model="MessageText" />
+      <button class="btn btn-success" type="submit">Add Message</button>
+    </form>
+    </div>
+        </div>
+
+      </div>
+
+         <script>
+
+    var app = angular.module("sampleApp", ["firebase"]);
+app.controller("SampleCtrl", function($scope, $firebaseArray) {
+  var ref = new Firebase("https://dazzling-fire-6299.firebaseio.com/users/");
+
+  $scope.ref2 = new Firebase("https://dazzling-fire-6299.firebaseio.com/users/");
+
+
+var thisUsersId = getUrlVars()["id"];
+
+console.log(thisUsersId);
+
+
+
+function getUrlVars() {
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+vars[key] = value;
+
+});
+return vars;
+}
+
+$scope.friendref = $scope.ref2.child(thisUsersId);
+
+
+
+
+  var authData = ref.getAuth();
+
+   var authName = authData.password.email;
+   var userId = authData.uid;
+
+   $scope.mypath = ref.child(userId);
+
+   $scope.myId = authData.uid;
+  // create a synchronized array
+  $scope.privatemessages1 = $firebaseArray($scope.mypath);
+  $scope.privatemessages2 = $firebaseArray($scope.friendref);
+
+
+
+  // add new items to the array
+  // the message is automatically added to our Firebase database!
+  $scope.addMessage1 = function() {
+    $scope.privatemessages1.$add({
+      text: $scope.MessageText,
+      username: authName,
+      userid: userId
+
+    });
+  };
+
+    $scope.addMessage2 = function() {
+    $scope.privatemessages2.$add({
+      text: $scope.MessageText,
+      username: authName,
+      userid: userId
+
+    });
+  };
+
+//ref.on("child_added", function(snapshot) {
+ // var newPost = snapshot.val();
+ // $scope.newPost = newPost.username;
+//});
+
+
+
+
+
+
+ref.on("child_added", function(snapshot) {
+
+  var newPost = snapshot.val();
+
+  $scope.newPost = newPost.username;
+ 
+$scope.arr = [];
+
+    $scope.addName = function () {
+        $scope.arr.push($scope.newPost);
+    };
+
+});
+
+
+
+
+  // click on `index.html` above to see $remove() and $save() in action
+});
+    </script>
+
+  </body>
+
+
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Code Buddy - User Profile</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="HTML,CSS,JavaScript,AngularJS">
+    <meta name="author" content="Group 1 - CS365">
+
+    <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link  rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link  rel="stylesheet" href="./css/styles.css">
+
+    <script src="./bower_components/firebase/firebase.js"></script>
+    <script src="./bower_components/angular/angular.js"></script>
+    <script src="./bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="./bower_components/angularfire/dist/angularfire.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+
+
+</head>
+
+
+<body ng-app = "app" ng-controller="myCtrl">
+
+<div>
+    <nav class="navbar navbar-default">
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">
+                    <img alt="Software Project" src="./images/en.png" width="100%" height="100%">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a>Home</a></li>
+                    <li><a href="./messages.html">Messages</a></li>
+                    <li><a href="./groups.html">Groups</a></li>
+                    <li><a href="./friends.html">Friends</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <button type="submit" class="btn btn-success" ng-click="signOut()">Log Out</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./myaccount.html"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm-3 well">
+            <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-user"></span> Add Friend
+            </button>
+            <div class="well">
+                <p ng-model="myProfile"> {{names}} </p>
+                <img src="{{thismightwork}}" class="img-circle" height="65" width="65" alt="Avatar">
+                <p></p><button type="button" class="btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+            </button></p>
+            </div>
+
+
+            <div class="well">
+                <p><a href="groups.html">Groups</a></p>
+
+                <a href = "groupsmessageboards.html?id={{domainone}}" class="label label-default" >{{domainone}}</a>
+                <a href = "groupsmessageboards.html?id={{domaintwo}}" class="label label-primary" >{{domaintwo}}</a>
+                <a href = "groupsmessageboards.html?id={{domainthree}}" class="label label-success" >{{domainthree}}</a>
+                <a href = "groupsmessageboards.html?id={{domainfour}}"  class="label label-info" >{{domainfour}}</a>
+                <a href = "groupsmessageboards.html?id={{domainfive}}"  class="label label-warning" >{{domainfive}}</a>
+                <a href = "groupsmessageboards.html?id={{domainsix}}"  class="label label-default" >{{domainsix}}</a>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+<ul>
+    <li ng-repeat = "x in newsingleOne">{{x}}</li>
+</ul>
+
+
+<footer class="container-fluid text-center">
+
+</footer>
+
+<script>
+
+    var app = angular.module('app', ['firebase']);
+
+
+    app.controller('myCtrl', ['$scope', '$firebaseObject', '$rootScope', function($scope, $firebaseObject, $rootScope){
+
+
+
+
+        // Create a callback which logs the current auth state
+        function authDataCallback(authData) {
+            if (authData) {
+                console.log("User " + authData.uid + " is logged in with " + authData.provider);
+
+            } else {
+                console.log("User is logged out");
+            }
+
+        }
+
+// Register the callback to be fired every time auth state changes
+        var ref = new Firebase("https://dazzling-fire-6299.firebaseio.com/users");
+        ref.onAuth(authDataCallback);
+
+        $scope.me = ref.getAuth();
+
+        // we would probably save a profile when we register new users on our site
+// we could also read the profile to see if it's null
+// here we will just simulate this with an isNewUser boolean
+
+        $scope.ref2 = new Firebase("https://dazzling-fire-6299.firebaseio.com/users");
+
+
+        var thisUsersId = getUrlVars()["id"];
+
+
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+
+            });
+            return vars;
+        }
+
+
+
+
+        var userInt = parseInt(thisUsersId);
+
+
+        $scope.ref3 = new Firebase("https://dazzling-fire-6299.firebaseio.com/users/" + thisUsersId);
+
+        $scope.userProfile = $scope.ref3.child('accountDetails');
+
+        $scope.userProfile.on('value', function(snapshot){
+
+            var obj = snapshot.val();
+            $scope.myProfile = obj.username;
+            $scope.myLanguage = "First Language : " + obj.language;
+            var flagAddress = "./flags/" + obj.language + ".png";
+            $scope.languageFlag = flagAddress;
+            $scope.myLocation = "Location : " + obj.location;
+            $scope.myOccupation = "Occupation : " + obj.occupation;
+            console.log($scope.myProfile);
+        })
+
+
+
+
+        $scope.refImage = $scope.ref3.child('avatar');
+
+        $scope.refImage.on('value', function(snapshot){
+
+            $scope.thismightwork = snapshot.val();
+            console.log( $scope.thismightwork);
+
+        });
+
+
+        $scope.thisName = $scope.ref3;
+
+        $scope.thisNames = $scope.thisName.val;
+
+        $scope.objectThing = $firebaseObject($scope.thisName);
+
+
+
+
+        $scope.arrays1 = [];
+
+        $scope.ref3.on("value", function(snapshot) {
+
+            $scope.newPost = snapshot.val();
+
+            //  $scope.stringy = JSON.stringify($scope.newPost);
+
+            $scope.names = $scope.newPost.name;
+
+            // console.log($scope.names);
+
+            //$scope.newName = $scope.newPost.name + ' ' + snapshot.key();
+
+
+//console.log($scope.turntostringone);
+
+
+//$scope.turntostringone = JSON.stringify($scope.newName);
+
+
+//logResults({name: $scope.newName, id: snapshot.key()});
+
+        });
+
+
+        // Write a string when this client loses connection
+
+
+        var amOnline = new Firebase('https://dazzling-fire-6299.firebaseio.com/.info/connected');
+        var userRef = new Firebase('https://dazzling-fire-6299.firebaseio.com/presence/' + thisUsersId);
+        amOnline.on('value', function(snapshot) {
+            // if (snapshot.key() === true) {
+
+            //   userRef.set('★ online');
+            console.log(snapshot.key());
+
+
+//  }else{
+            //   userRef.onDisconnect().set('☆ offline');
+            //   console.log("offline")
+//  }
+        });
+
+
+
+        $scope.ref4 = $scope.ref3.child('domains');
+        console.log($scope.ref4);
+
+        $scope.ref4.on("value", function(snapshot) {
+
+
+
+            $scope.mydomains = snapshot.val();
+            $scope.turntostringone = JSON.stringify($scope.mydomains);
+            console.log($scope.turntostringone);
+            logResults($scope.turntostringone);
+
+
+
+        });
+
+
+
+
+        function logResults(postsData) {
+            $scope.arrays = [];
+            $scope.newsingle = postsData;
+
+
+
+
+            $scope.arrays.push($scope.newsingle);
+            $scope.arrays.toString();
+
+
+            var stringy = "";
+            stringy = String($scope.arrays);
+
+            stringy.match(/\w+|"[^"]+"/g)
+            stringy = stringy.replace(true, " ");
+            stringy = stringy.replace(true, " ");
+            stringy = stringy.replace(true, " ");
+            stringy = stringy.replace(true, " ");
+            stringy = stringy.replace(true, " ");
+            stringy = stringy.replace(true, " ");
+
+            stringy = stringy.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+
+            stringy = stringy.split(" ");
+
+            $scope.domainone = stringy[0];
+            $scope.domaintwo = stringy[1];
+            $scope.domainthree = stringy[2];
+            $scope.domainfour = stringy[3];
+            $scope.domainfive = stringy[4];
+            $scope.domainsix = stringy[5];
+
+
+
+
+            $scope.newsingle = stringy;
+
+
+
+        }
+
+
+
+        /*$scope.ref3.on("child_added", function(snapshot) {
+
+
+
+         $scope.mydomain = snapshot.val();
+         $scope.turntostring = JSON.stringify($scope.mydomain);
+         console.log($scope.turntostring);
+
+         logResults($scope.mydomain);
+
+
+         var b = snapshot.child("status").exists();
+         if(b == true){
+         $scope.logResult(b);
+         }
+
+
+         });
+
+
+         $scope.logResult = function(dataStuff){
+
+         $scope.willitwork = "online!"
+         }; */
+
+
+
+
+
+
+        /*var isNewUser = true;
+
+         ref.onAuth(function(authData) {
+
+         if (authData && isNewUser) {
+         // save the user's profile into the database so we can list users,
+         // use them in Security and Firebase Rules, and show profiles
+         ref.child("users").child(authData.uid).update({
+         provider: authData.provider,
+         name: getName(authData)
+
+         });
+         $scope.myProfile = getName(authData);
+         }
+         });
+         // find a suitable name based on the meta info given by each provider
+         function getName(authData) {
+         switch(authData.provider) {
+         case 'password':
+         return authData.password.email.replace(/@.*//*, '');
+         case 'twitter':
+         return authData.twitter.displayName;
+         case 'facebook':
+         return authData.facebook.displayName;
+         }
+         }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }]);
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
